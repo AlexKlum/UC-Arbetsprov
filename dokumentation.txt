@@ -1,0 +1,60 @@
+
+Jag använde mig av React för att bygga hemsidan och jag använde mig av Tailwind för all css. 
+Jag använde mig även av Flowbite för att med hjälp av Tailwind lägga till färdigskapade menyer och knappar som jag smidigt kunde anpassa efteråt.
+Sidan är en single page application vilket jag tycker fungerar väldigt smidigt när det är ett mindre projekt som detta.
+
+Jag skapade hemsidan på 8h och blev nästan helt klar med det jag ville göra.
+Det som saknas som jag inte lyckades lösa i tid är iconer och lite små ändringar till själva designen som tex en show/hide knapp till dropdown menyerna i mobile view.
+Men jag är ändå nöjd med det jag han göra och om jag hade haft mer tid på mig så hade jag laggt till iconer och liknande för att göra designen lite mer spännande.
+
+
+
+Tankeprocess
+
+Eftersom det var en gankska enkel sida som egentligen redan såg ganska bra ut, och bara behövde ett ansiktslyft som ni kallade det,
+och eftersom att jag redan fått innehållet av er så tänkte jag att jag ville placera innehållet på ungefär samma plats men sedan ändra utseendet lite, kanske med andra färger, knappar, boxar och borders.
+
+Men med tanke på tidspressen så bestämde jag mig för att inte fördjupa mig för mycket i designen utan att jag känner på det och testar mig fram medans jag skapar komponenterna och elementen.
+
+Jag valde som sagt att använda mig av Tailwind för min css, eftersom detta lätt gav mig möjlighet att lägga till en färdig meny som jag sedan ändrade så att den passade och såg bra ut.
+Jag föredrar även Tailwind som css eftersom det blir lättare att ändra specefika element utan att behöva hoppa & leta mellan dom olika editorna, trots att koden blir lite mer rörig att hänga med i om du inte var den som skrev den.
+Om man använder sig av komentarer för att märka ut vad som är vad på sidan blir det dock lättare att hitta specifika element som man letar efter. Det blir även lättare för någon annan att förstå min kod.
+När jag testade runt tyckte den blåa färgen på menyn passade väldigt bra med bilden som jag valde att återanvända. Så på grund av det valde jag även att ha liknande blåä färger på bakgrunden och knapparna.
+
+Jag hade som sagt velat lägga till lite iconer från Flowbite eller Font Awesome på menyn, vid innehållstexten, och footern, men fick slut på tid.
+
+
+
+Arbetsprocess
+Jag började med att starta upp allt med npm och installerade paketen som jag behövde. Jag la sedan till Tailwind och testade så att allting fungerade, vilket det gjorde.
+Sen skapade jag alla komponenterna som behövdes och importerade samt returnerade dom i App.jsx.
+
+Efter det så började jag direkt med att hitta och lägga in en snygg och passande meny från Flowbite som ändå påminde en del om den menyn ni redan hade på sidan.
+Jag satt efter det och ändrade Tailwind cssen som redan hängde med menyn, eftersom det var många element som inte stämde eller behövdes. 
+
+Jag fick tillslut dom övre menyerna att se bra ut och började då att jobba på dropdown menyerna.
+Detta tog lite tid eftersom det var en hel del att ändra och fixa, både i css och i koden. Men tillslut lyckades jag även där få allting att se ganska bra ut och var hyfsat nöjd, 
+så efter att jag testat så att funktionaliteten på dropdown menyerna fungerade som det skulle och att menyerna var relativa så jag valde att gå vidare. 
+Jag fick dock inte show/hide knappen att fungera utan var tvungen att göra en sämre lösning i den mobile view där dropdown menyerna visas hela tiden och ligger på varandra, 
+ vilket jag självklart hade fixat om jag haft mer tid på mig.
+
+Jag valde nu att gå vidare till Banner komponenten och lyckades snabbt få den att se bra ut och vara relativ.
+Så jag kunde snabbt gå vidare till Content komponenten där jag valde att lägga allt innehåll på ett liknande vis, men valde att ha dom i en box/container och ha blågrå färg på bakgrunden runt boxarna.
+Här var det också ganska simplet att få allt att fungera och se bra ut, med tanke på att jag kunde återanvända innehållet från er och även återanvända mycket av min kod och css.
+Jag är nöjd med resultatet och tycker att jag lyckades få det att se bra ut med det blåa färgtemat på sidan.
+
+När jag återigen testat så att allt stämde och fungerade bra så började jag få ont om tid. Men jag ville verkligen få iconerna från Flowbite eller Font Awesome att fungera, men efter en tid insåg jag att jag inte kommer hinna med det, det krånglade alldeles för mycket.
+Jag fick därför tillslut snabbt skapa footer komponenten så att den ser okej ut, men han inte lägga till iconer eller bilderna längst ner.
+
+
+
+Jag är ganska nöjd med min design och tycker att koden är lätt att hitta i, med hjälp av mina kommentarer. 
+Det finns som jag nämde mer jag hade velat göra med den, men med tanke på tiden jag lagt ner så är jag ändå nöjd med resultatet.
+
+Jag hör gärna vad ni tycker om den och vad ni hade gjort annorlunda, så jag kan lära och förbättra mig.
+
+
+
+
+
+

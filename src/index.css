@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.appDiv {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* Dropdown */
+
+.dropdownMenu1{
+  display: none;
+}
+
+.dropdownDiv1:hover .dropdownMenu1{
+  display: block;
+  position: absolute;
+}
+
+.dropdownMenu2 {
+  display:none;
+}
+
+.dropdownDiv2:hover .dropdownMenu2{
+  display: block;
+  position:absolute;
+}
